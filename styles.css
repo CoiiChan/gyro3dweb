@@ -1,0 +1,71 @@
+body { background-color: #363636; margin: 0; padding: 0; }
+
+.container {
+    color: #333;
+}
+
+
+h4 {
+    color: white;                  /* 文字颜色设为白色 */
+    background-color: #333;        /* 添加深色背景确保文字可见 */
+    padding: 5px;                 /* 内边距增加可读性 */
+    text-align: center;            /* 文字居中对齐 */
+    margin: 0 -20px 20px -20px;    /* 边缘对齐容器 */
+}.container {
+    color: #333;                   /* 容器内默认文本颜色为深灰色 */
+}
+
+.image-container {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #000000;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+.image-container img.active {
+    display: block;
+}
+
+.loading {
+    color: #333;
+    text-align: center;
+    line-height: 60vh;
+    font-size: 18px;
+}
+
+.controls {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.info {
+    color: #666;
+    font-size: 14px;
+}
