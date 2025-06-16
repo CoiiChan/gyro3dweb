@@ -1,6 +1,8 @@
 # 陀螺仪3D序列图片查看器
 
 这是一个基于移动端陀螺仪的3D序列图片查看器，通过左右旋转手机可以查看不同视角的序列图片。
+
+[https://coiichan.github.io/gyro3dweb](https://coiichan.github.io/gyro3dweb)
 [![https://coiichan.github.io/gyro3dweb/](https://github.com/CoiiChan/gyro3dweb/blob/master/images/view_9.png)](https://coiichan.github.io/gyro3dweb)
 ## 使用方法
 
