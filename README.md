@@ -2,9 +2,9 @@
 
 这是一个基于移动端陀螺仪的3D序列图片查看器，通过左右旋转手机可以查看不同视角的序列图片。
 
-[点击下图查看示例页面shttps://coiichan.github.io/gyro3dweb](https://coiichan.github.io/gyro3dweb)
+[点击下图查看示例页面shttps://coiichan.github.io/gyro3dweb](https://gyro3dweb.pages.dev/)
 
-[![https://coiichan.github.io/gyro3dweb/](https://github.com/CoiiChan/gyro3dweb/blob/master/images/view_9.png)](https://coiichan.github.io/gyro3dweb)
+[![https://coiichan.github.io/gyro3dweb/](https://github.com/CoiiChan/gyro3dweb/blob/master/images/view_9.png)](https://gyro3dweb.pages.dev/)
 ## 使用方法
 
 1. 将3D序列图片命名为`view_0.jpg`, `view_1.jpg`, ..., `view_n.jpg`格式
