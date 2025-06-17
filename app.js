@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let startX = 0;
     let startIndex = 0;
     let totalImages = 17; // 默认17张序列图片
-    let imageBasePath = 'https://gitee.com/CoiiChan/gyro3dweb/blob/master/images/view_'; // 图片基础路径
+    let imageBasePath = 'https://gitee.com/CoiiChan/gyro3dweb/raw/master/images/view_'; // 图片基础路径
     let imageExtension = '.png'; // 图片扩展名
 
     // 配置参数 - 可根据实际情况调整
