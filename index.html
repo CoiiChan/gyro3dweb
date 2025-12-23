@@ -15,6 +15,22 @@
         </div>
         <div class="controls">
             <button id="start-btn" class="btn">开始体验</button>
+            <button id="upload-btn" class="btn">本地quilt图片</button>
+            <input type="file" id="file-input" accept="image/*" style="display: none;">
+            <div class="quilt-controls">
+                <div class="control-group">
+                    <label for="columns" title="Quilt图像的列数，决定水平方向分割的子图数量">Columns:</label>
+                    <input type="number" id="columns" value="10" min="1" max="20" title="Quilt图像的列数，决定水平方向分割的子图数量">
+                </div>
+                <div class="control-group">
+                    <label for="rows" title="Quilt图像的行数，决定垂直方向分割的子图数量">Rows:</label>
+                    <input type="number" id="rows" value="6" min="1" max="20" title="Quilt图像的行数，决定垂直方向分割的子图数量">
+                </div>
+                <div class="control-group">
+                    <label for="aspect" title="Aspect (W/H): 宽度与高度的比率，用于调整子图的拉伸比例">Aspect (W/H):</label>
+                    <input type="number" id="aspect" value="1.25" step="0.01" min="0.1" max="5" title="Aspect (W/H): 宽度与高度的比率，用于调整子图的拉伸比例">
+                </div>
+            </div>
             <div class="info">请在移动端浏览器中使用，并允许访问设备传感器</div>
         </div>
     </div>
