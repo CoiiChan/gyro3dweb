@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (permissionState === 'granted') {
                         window.addEventListener('deviceorientation', handleDeviceOrientation);
                         isActive = true;
-                        startBtn.textContent = '停止体验';
+                        startBtn.textContent = '停止陀螺仪';
                         loadingIndicator.style.display = 'none';
                     }
                 })
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // 非iOS设备直接监听事件
             window.addEventListener('deviceorientation', handleDeviceOrientation);
             isActive = true;
-            startBtn.textContent = '停止体验';
+            startBtn.textContent = '停止陀螺仪';
             loadingIndicator.style.display = 'none';
         } else {
             alert('您的设备不支持陀螺仪功能');
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function stopGyroscope() {
         window.removeEventListener('deviceorientation', handleDeviceOrientation);
         isActive = false;
-        startBtn.textContent = '开始体验';
+        startBtn.textContent = '开启陀螺仪';
     }
 
     // 开始/停止按钮点击事件
