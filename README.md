@@ -2,9 +2,12 @@
 
 这是一个基于移动端陀螺仪的3D序列图片查看器，通过左右旋转手机可以查看不同视角的序列图片,PC端滑动左右鼠标。
 
-[点击下图查看示例页面https://coiichan.github.io/gyro3dweb](https://gyro3dweb.pages.dev/)
+[看示例页面https://coiichan.github.io/gyro3dweb](https://gyro3dweb.pages.dev/)
 
-[![https://coiichan.github.io/gyro3dweb/](https://github.com/CoiiChan/gyro3dweb/blob/master/images/view_9.png)](https://gyro3dweb.pages.dev/)
+Quilt Format
+Each tile in the quilt is a conventional 2D image of a scene. The bottom-left tile of the quilt (view 0) is the leftmost view of the scene, and the top-right tile is the rightmost, like so:
+
+[![https://coiichan.github.io/gyro3dweb/](https://docs.lookingglassfactory.com/~gitbook/image?url=https%3A%2F%2F1101008898-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MWj8g-jOrSs315lrZFz%252Fsync%252F4033e85ad8499a86ba456f0983f5891ef2dcedf1.png%3Fgeneration%3D1616772675645811%26alt%3Dmedia&width=768&dpr=1&quality=100&sign=3397a241&sv=2)](https://gyro3dweb.pages.dev/)
 ## 使用方法
 
 1. 将3D序列图片命名为`view_0.jpg`, `view_1.jpg`, ..., `view_n.jpg`格式
