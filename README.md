@@ -4,8 +4,12 @@
 
 [看示例页面https://coiichan.github.io/gyro3dweb](https://gyro3dweb.pages.dev/)
 
+
 Quilt Format
+Quilt 格式
+
 Each tile in the quilt is a conventional 2D image of a scene. The bottom-left tile of the quilt (view 0) is the leftmost view of the scene, and the top-right tile is the rightmost, like so:
+拼图中的每块瓦片都是场景的常规二维图像。拼图左下角的瓦片（视图0）是场景最左侧的视角，而右上角的瓦片则是最右侧的视角，具体如下：
 
 [![https://coiichan.github.io/gyro3dweb/](https://docs.lookingglassfactory.com/~gitbook/image?url=https%3A%2F%2F1101008898-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-MWj8g-jOrSs315lrZFz%252Fsync%252F4033e85ad8499a86ba456f0983f5891ef2dcedf1.png%3Fgeneration%3D1616772675645811%26alt%3Dmedia&width=768&dpr=1&quality=100&sign=3397a241&sv=2)](https://gyro3dweb.pages.dev/)
 ## 使用方法
