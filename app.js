@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const rowsInput = document.getElementById('rows');
     const aspectInput = document.getElementById('aspect');
     const exifTextArea = document.getElementById('exif-text');
+    const exifToggle = document.getElementById('exif-toggle');
+    const exifInfo = document.getElementById('exif-info');
     
     let images = [];
     let currentImageIndex = 0;
@@ -19,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let quiltImagePath = 'quiltimages/quilt.jpg'; // 默认Quilt图像路径
     let useLocalQuilt = false; // 是否使用本地quilt图片
 
+    // EXIF信息显示/隐藏切换
+    exifToggle.addEventListener('change', () => {
+        exifInfo.style.display = exifToggle.checked ? 'block' : 'none';
+    });
+    
     // 配置参数 - 可根据实际情况调整
     const config = {
         sensitivity: 1.5, // 陀螺仪灵敏度系数

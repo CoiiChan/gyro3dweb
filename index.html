@@ -17,6 +17,7 @@
             <button id="start-btn" class="btn" title="或者使用鼠标滑动">开启陀螺仪</button>
             <button id="upload-btn" class="btn" title="上传本地Quilt图片，Quilt图像为3D序列图片的拼接，首帧在左下角尾帧在右上角的拼接图">本地Quilt图片</button>
             <input type="file" id="file-input" accept="image/*" style="display: none;">
+            <div class="info">请在移动端浏览器中使用，并允许访问设备传感器</div>
             <div class="quilt-controls">
                 <div class="control-group">
                     <label for="columns" title="Quilt图像的列数，决定水平方向分割的子图数量">Columns:</label>
@@ -30,10 +31,15 @@
                     <label for="aspect" title="Aspect (W/H): 宽度与高度的比率，用于调整子图的拉伸比例">Aspect (W/H):</label>
                     <input type="number" id="aspect" value="1.25" step="0.01" min="0.1" max="5" title="Aspect (W/H): 宽度与高度的比率，用于调整子图的拉伸比例">
                 </div>
-                <button id="force-overwrite-btn" class="btn" title="将行，列，aspect参数添加为附加Exif信息并下载到本地">下载为新Quilt图片</button>
             </div>
-            <div class="info">请在移动端浏览器中使用，并允许访问设备传感器</div>
-            <div class="exif-info">
+            <button id="force-overwrite-btn" class="btn" title="将行，列，aspect参数添加为附加Exif信息并下载到本地">保存参数并下载Quilt图片</button>
+            <div class="toggle-container">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="exif-toggle">
+                    <span class="toggle-slider">查看Exif</span>
+                </label>
+            </div>
+            <div class="exif-info" id="exif-info" style="display: none;">
                 <label for="exif-text">图片EXIF信息：</label>
                 <textarea id="exif-text" readonly rows="6" cols="50" placeholder="图片EXIF信息将显示在这里..."></textarea>
             </div>
